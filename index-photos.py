@@ -7,6 +7,7 @@ import datetime
 
 def lambda_handler(event, context):
     # TODO implement
+    #test
     #print(json.dumps(event, indent=4, sort_keys=True))
     s3client = boto3.client('s3')
     s3_info = event['Records'][0]['s3']
